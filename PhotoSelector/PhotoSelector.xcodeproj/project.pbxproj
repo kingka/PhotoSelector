@@ -394,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoSelector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imanol.PhotoSelector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -405,6 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PhotoSelector/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.imanol.PhotoSelector;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -478,6 +480,7 @@
 				F977D2C51CF1889000351231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F977D2C61CF1889000351231 /* Build configuration list for PBXNativeTarget "PhotoSelectorTests" */ = {
 			isa = XCConfigurationList;
@@ -486,6 +489,7 @@
 				F977D2C81CF1889000351231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F977D2C91CF1889000351231 /* Build configuration list for PBXNativeTarget "PhotoSelectorUITests" */ = {
 			isa = XCConfigurationList;
@@ -494,6 +498,7 @@
 				F977D2CB1CF1889000351231 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
