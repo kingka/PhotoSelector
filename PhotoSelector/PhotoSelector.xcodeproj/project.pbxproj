@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F92259081CF4361C00A49242 /* UIImage+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92259071CF4361C00A49242 /* UIImage+Category.swift */; };
 		F977D29F1CF1889000351231 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F977D29E1CF1889000351231 /* AppDelegate.swift */; };
 		F977D2A61CF1889000351231 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F977D2A51CF1889000351231 /* Assets.xcassets */; };
 		F977D2A91CF1889000351231 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F977D2A71CF1889000351231 /* LaunchScreen.storyboard */; };
@@ -33,6 +34,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F92259071CF4361C00A49242 /* UIImage+Category.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Category.swift"; sourceTree = "<group>"; };
 		F977D29B1CF1889000351231 /* PhotoSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F977D29E1CF1889000351231 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F977D2A51CF1889000351231 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				F977D2CD1CF1892B00351231 /* PhotoSelectorViewController.swift */,
+				F92259071CF4361C00A49242 /* UIImage+Category.swift */,
 			);
 			path = PhotoSelectorViewController;
 			sourceTree = "<group>";
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F92259081CF4361C00A49242 /* UIImage+Category.swift in Sources */,
 				F977D2CE1CF1892B00351231 /* PhotoSelectorViewController.swift in Sources */,
 				F977D29F1CF1889000351231 /* AppDelegate.swift in Sources */,
 			);
